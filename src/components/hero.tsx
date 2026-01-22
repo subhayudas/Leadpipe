@@ -74,7 +74,7 @@ const Hero = () => {
                     <div className="flex flex-col items-start justify-start w-full h-min relative overflow-visible">
                         <div className="lg:aspect-[1.3884514435695539/1] w-full lg:w-[1000px] lg:h-[auto,720px] relative">
                             <div className="pointer-events-none hidden lg:block absolute inset-y-0 right-1/4 w-1/3 h-full bg-gradient-to-l from-background z-50"></div>
-                            <div className="lg:absolute lg:inset-0 p-4 lg:p-6">
+                            <div className="lg:absolute lg:inset-0  lg:p-12">
                                 <div className="w-full h-full rounded-xl lg:rounded-2xl border-4 lg:border-8 border-orange-400/30 backdrop-blur-xl bg-orange-500/10 shadow-2xl">
                                     <Image
                                         src="/images/dashboard.png"
