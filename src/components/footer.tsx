@@ -60,13 +60,13 @@ const Footer = () => {
                                 </span>
                             </div>
                             <p className="text-muted-foreground mt-4 text-sm">
-                                123 Pine Avenue, Suite 500
-                                <br />
-                                New York, NY 10001
+                                Noryon AI Inc.
+                                Montreal, QC H2Z 1X1
+                            
                             </p>
                             <div className="mt-4 text-sm text-muted-foreground">
-                                <p>support@leadpipe.com</p>
-                                <p>+1 (123) 456-7890</p>
+                                <p>shauncere@noryon.ai</p>
+                                <p>+1 514 984 1671</p>
                             </div>
                             <div className="flex items-center gap-4 mt-6">
                                 {SOCIAL_LINKS.map((social, index) => (

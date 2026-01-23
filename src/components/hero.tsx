@@ -10,12 +10,14 @@ import SectionBadge from "./ui/section-badge";
 const Hero = () => {
 
     const companies = [
-        Images.comp1,
-        Images.comp2,
-        Images.comp3,
-        Images.comp4,
-        Images.comp5,
-        Images.comp6,
+        Images.comp1, // HubSpot
+        Images.comp2, // Stripe
+        Images.comp3, // Canva
+        Images.compAws, // AWS
+        Images.compDocker, // Docker
+        Images.compGmail, // Gmail
+        Images.compJira, // Jira
+        Images.compSlack, // Slack
     ];
 
     return (
@@ -24,7 +26,7 @@ const Hero = () => {
                 <div className="flex flex-col items-start gap-10 py-8 w-full">
                     <div className="flex flex-col items-start gap-4">
                         <AnimationContainer animation="fadeUp" delay={0.2}>
-                            <SectionBadge title="Trusted by 10,000+ Users" />
+                            <SectionBadge title="Making Real Estate Smart" />
                         </AnimationContainer>
 
                         <AnimationContainer animation="fadeUp" delay={0.4}>
@@ -35,7 +37,7 @@ const Hero = () => {
 
                         <AnimationContainer animation="fadeUp" delay={0.6}>
                             <p className="text-sm md:text-base lg:text-lg text-muted-foreground">
-                                Transform your real estate business with LeadPipe's intelligent CRM platform. Streamline operations, automate workflows, and close more deals with AI-powered insights and AI Voice agents designed specifically for real estate professionals. Let our intelligent voice assistants handle inquiries, schedule viewings, and qualify leads 24/7.
+                                Transform your real estate business with LeadPipe's intelligent CRM platform. Streamline operations, automate workflows, and close more deals with AI powered insights and AI Voice agents designed specifically for real estate professionals.
                             </p>
                         </AnimationContainer>
                     </div>
