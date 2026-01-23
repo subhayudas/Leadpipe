@@ -77,7 +77,7 @@ const Hero = () => {
                         <div className="lg:aspect-[1.3884514435695539/1] w-full lg:w-[1000px] lg:h-[auto,720px] relative">
                             <div className="pointer-events-none hidden lg:block absolute inset-y-0 right-1/4 w-1/3 h-full bg-gradient-to-l from-background z-50"></div>
                             <div className="lg:absolute lg:inset-0  lg:p-12">
-                                <div className="w-full h-full rounded-xl lg:rounded-2xl border-4 lg:border-8 border-orange-400/30 backdrop-blur-xl bg-orange-500/10 shadow-2xl">
+                                <div className="w-full h-full rounded-xl lg:rounded-2xl border-4 lg:border-8 border-orange-400/30 backdrop-blur-xl bg-orange-500/10 shadow-2xl relative">
                                     <Image
                                         src="/images/dashboard.png"
                                         alt="hero"
@@ -86,6 +86,7 @@ const Hero = () => {
                                         height={1024}
                                         className="object-contain min-w-full h-auto rounded-lg lg:rounded-xl"
                                     />
+                                    <div className="lg:hidden absolute bottom-0 left-0 right-0 h-2/3 bg-gradient-to-t from-black to-transparent pointer-events-none rounded-b-lg"></div>
                                 </div>
                             </div>
                         </div>
