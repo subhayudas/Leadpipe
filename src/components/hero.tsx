@@ -55,7 +55,7 @@ const Hero = () => {
                     <AnimationContainer animation="fadeUp" delay={1}>
                         <div className="flex flex-col items-start gap-4 py-4">
                             <p className="text-sm md:text-base text-muted-foreground">
-                                Trusted by Industry Leaders
+                                Production level Software 
                             </p>
                             <div className="w-full relative max-w-[calc(100vw-2rem)] lg:max-w-lg">
                                 <Marquee className="[--duration:40s] select-none [--gap:2rem]">
